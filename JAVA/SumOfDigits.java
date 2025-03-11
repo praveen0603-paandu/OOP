@@ -8,8 +8,8 @@ public class SumOfDigits {
 
         int sum = 0;
         while (num > 0) {
-            sum += num % 10;  // Get last digit and add to sum
-            num /= 10;  // Remove last digit
+            sum += num % 10; 
+            num /= 10;  
         }
 
         System.out.println("Sum of digits: " + sum);
